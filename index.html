@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJ - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="blob blob1"></div>
+    <div class="blob blob2"></div>
+    
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">EJ</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+<section id="home" class="section home-section">
+    <div class="container">
+        <div class="home-content">
+            <div class="profile-image-wrapper">
+                <img src="img/ej.jpg" alt="Profile" class="profile-image">
+                <div class="accent-line"></div>
+            </div>
+            <div class="home-text">
+                <p class="greeting">Hi I am</p>
+                <h1 class="name-wrapper">
+                    <span class="name typed-name"></span>
+                    <span class="accent-line-text"></span>
+                </h1>
+                <h2 class="title typed-title"></h2>
+                <div class="stats-button-wrapper">
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h3>4+</h3>
+                            <p>Experiences</p>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <h3>12+</h3>
+                            <p>Projects</p>
+                        </div>
+                    </div>
+                    <button class="cta-button">View my work</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+<!-- About Section -->
+<section id="about" class="section about-section">
+    <div class="container">
+        <div class="section-header fade-in-up">
+            <h2>About Me</h2>
+            <div class="accent-line"></div>
+            <p class="section-subtitle">Get to know me better</p>
+        </div>
+        
+        <div class="about-content fade-in-up">
+            <div class="about-image-wrapper">
+                <img src="img/mirrorshot.jpg" alt="About Me" class="about-image">
+            </div>
+            <div class="about-text">
+                <h3>Hello! I'm E-J Padernal</h3>
+                <p>I'm a 2nd year BSIT student at STII in Ipil, Zamboanga Sibugay. I'm passionate about technology and constantly learning new programming skills.</p>
+                <p>Currently exploring Python, PHP, Javascript and web development while building practical projects.</p>
+                <p>When I'm not coding, you'll find me playing Call of Duty Mobile, working out, or exploring the beautiful mountains and cities around the Philippines. I love spending quality time with my friends, family, and especially with my girlfriend.</p>
+            </div>
+        </div> 
+
+        <div class="download-cv-wrapper fade-in-up">
+            <a href="pdf/ejpadernal.cv.pdf" download="EJ-Padernal-CV.pdf" class="download-cv-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                Download CV
+            </a>
+        </div>
+        
+        <div class="hobbies-section fade-in-up">
+            <h3 class="hobbies-title">My Hobbies & Interests</h3>
+            <div class="hobbies-wrapper">
+                <div class="hobbies-grid">
+                    <div class="hobby-card fade-in-up-stagger">
+                        <img src="img/mt2.png" alt="Hiking Icon" class="hobby-icon">
+                        <h4>Hiking</h4>
+                        <p>Exploring Mountains & Nature</p>
+                    </div>
+                    <div class="hobby-card fade-in-up-stagger">
+                        <img src="img/controller.png" alt="Gaming Icon" class="hobby-icon">
+                        <h4>Gaming</h4>
+                        <p>Call of Duty Mobile, Garena</p>
+                    </div>
+                    <div class="hobby-card fade-in-up-stagger">
+                        <img src="img/dumbell.png" alt="Workout Icon" class="hobby-icon">
+                        <h4>Working Out</h4>
+                        <p>Fitness & Strength Training</p>
+                    </div>
+                    <div class="hobby-card fade-in-up-stagger">
+                        <img src="img/urban.png" alt="Walking Icon" class="hobby-icon">
+                        <h4>City Walking</h4>
+                        <p>Urban Exploration</p>
+                    </div>
+                    <div class="hobby-card fade-in-up-stagger">
+                        <img src="img/mic.png" alt="Singing Icon" class="hobby-icon">
+                        <h4>Singing</h4>
+                        <p>Music & Vocals</p>
+                    </div>
+                    <div class="hobby-card fade-in-up-stagger">
+                        <img src="img/jogging.png" alt="Jogging Icon" class="hobby-icon">
+                        <h4>Jogging</h4>
+                        <p>Running & Cardio</p>
+                    </div>
+                </div>
+                
+                <div class="info-cards-sidebar">
+                    <div class="info-cards">
+                        <div class="info-card fade-in-up-stagger">
+                            <img src="img/gra.png" alt="Education Icon" class="info-icon">
+                            <div class="info-content">
+                                <h4>Education</h4>
+                                <p>BSIT 2nd Year at STII</p>
+                            </div>
+                        </div>
+                        <div class="info-card fade-in-up-stagger">
+                            <img src="img/loc.png" alt="Location Icon" class="info-icon">
+                            <div class="info-content">
+                                <h4>Location</h4>
+                                <p>Ipil, Zamboanga Sibugay</p>
+                            </div>
+                        </div>
+                        <div class="info-card fade-in-up-stagger">
+                            <img src="img/vecteezy_white-heart-clipart_59493081.png" alt="Interests Icon" class="info-icon">
+                            <div class="info-content">
+                                <h4>Interests</h4>
+                                <p>Gaming, Fitness, Hiking</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="section skills-section">
+    <div class="container">
+        <div class="section-header fade-in-up">
+            <h2>Skills</h2>
+            <div class="accent-line"></div>
+            <p class="section-subtitle">What I'm learning and working with</p>
+        </div>
+        <div class="skills-grid fade-in-up">
+            <div class="skill-card" data-skill="79">
+                <div class="skill-circle">
+                    <svg width="160" height="160">
+                        <circle class="skill-bg" cx="80" cy="80" r="70"></circle>
+                        <circle class="skill-progress" cx="80" cy="80" r="70"></circle>
+                    </svg>
+                    <div class="skill-icon">
+                        <img src="img/html5.png" alt="HTML5">
+                    </div>
+                    <div class="skill-percent">79%</div>
+                </div>
+                <h4>HTML - 5</h4>
+            </div>
+            <div class="skill-card" data-skill="75">
+                <div class="skill-circle">
+                    <svg width="160" height="160">
+                        <circle class="skill-bg" cx="80" cy="80" r="70"></circle>
+                        <circle class="skill-progress" cx="80" cy="80" r="70"></circle>
+                    </svg>
+                    <div class="skill-icon">
+                        <img src="img/css.png" alt="CSS3">
+                    </div>
+                    <div class="skill-percent">75%</div>
+                </div>
+                <h4>CSS - 3</h4>
+            </div>
+            <div class="skill-card" data-skill="66">
+                <div class="skill-circle">
+                    <svg width="160" height="160">
+                        <circle class="skill-bg" cx="80" cy="80" r="70"></circle>
+                        <circle class="skill-progress" cx="80" cy="80" r="70"></circle>
+                    </svg>
+                    <div class="skill-icon">
+                        <img src="img/javascript.png" alt="JavaScript">
+                    </div>
+                    <div class="skill-percent">66%</div>
+                </div>
+                <h4>JAVASCRIPT</h4>
+            </div>
+            <div class="skill-card" data-skill="55">
+                <div class="skill-circle">
+                    <svg width="160" height="160">
+                        <circle class="skill-bg" cx="80" cy="80" r="70"></circle>
+                        <circle class="skill-progress skill-progress-orange" cx="80" cy="80" r="70"></circle>
+                    </svg>
+                    <div class="skill-icon">
+                        <img src="img/python.png" alt="Python">
+                    </div>
+                    <div class="skill-percent">55%</div>
+                </div>
+                <h4>PYTHON</h4>
+            </div>
+            <div class="skill-card" data-skill="61">
+                <div class="skill-circle">
+                    <svg width="160" height="160">
+                        <circle class="skill-bg" cx="80" cy="80" r="70"></circle>
+                        <circle class="skill-progress skill-progress-yellow" cx="80" cy="80" r="70"></circle>
+                    </svg>
+                    <div class="skill-icon">
+                        <img src="img/php.png" alt="PHP">
+                    </div>
+                    <div class="skill-percent">61%</div>
+                </div>
+                <h4>PHP</h4>
+            </div>
+            <div class="skill-card" data-skill="95">
+                <div class="skill-circle">
+                    <svg width="160" height="160">
+                        <circle class="skill-bg" cx="80" cy="80" r="70"></circle>
+                        <circle class="skill-progress" cx="80" cy="80" r="70"></circle>
+                    </svg>
+                    <div class="skill-icon">
+                        <img src="img/codmmm.png" alt="CODM">
+                    </div>
+                    <div class="skill-percent">95%</div>
+                </div>
+                <h4>CODM</h4>
+            </div>
+        </div>
+
+        <div class="tools-section fade-in-up">
+            <h3>Tools and Technologies</h3>
+            <div class="tools-grid">
+                <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer" class="tool-card fade-in-up-stagger">
+                    <img src="img/vs.png" alt="VS Code" class="tool-icon">
+                    <h4>VS Code</h4>
+                </a>
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="tool-card fade-in-up-stagger">
+                    <img src="img/git.png" alt="Git Hub" class="tool-icon">
+                    <h4>Git Hub</h4>
+                </a>
+                <a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer" class="tool-card fade-in-up-stagger">
+                    <img src="img/mysql.png" alt="Databases" class="tool-icon">
+                    <h4>Databases</h4>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Projects</h2>
+                <div class="accent-line"></div>
+                <p class="section-subtitle">Things I've built and learned from</p>
+            </div>
+            
+            <div class="projects-container">
+                <div class="project-item project-right">
+                    <div class="project-image">
+                        <img src="img/spotiffy.jpg" alt="Spotify Web Player">
+                    </div>
+                    <div class="project-content">
+                        <h3>Spotify Web-Player</h3>
+                        <p>My Spotify Clone is a web-based music player built with HTML, CSS, JavaScript, and PHP, featuring a modern Spotify-inspired design, functional music controls, and simple user login to showcase my front-end and back-end development skills.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">PHP</span>
+                        </div>
+                        <ul class="project-features">
+                            <li>✓ User Authentication</li>
+                            <li>✓ Modern UI (Spotify-Inspired)</li>
+                            <li>✓ Playable Music</li>
+                            <li>✓ Playlist System</li>
+                            <li>✓ Dynamic Song Info</li>
+                            <li>✓ Responsive Design</li>
+                            <li>✓ Front-end & Back-end Integration</li>
+                        </ul>
+                        <div class="project-buttons">
+                            <button class="btn-view">View Project</button>
+                            <button class="btn-code">
+                                <img src="img/git.png" alt="GitHub" class="btn-icon">
+                                Code
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-item project-left">
+                    <div class="project-content">
+                        <h3>Facebook Clone</h3>
+                        <p>My Facebook Clone is a front-end project made with HTML and CSS, replicating Facebook's clean interface to showcase my skills in layout design, responsive styling, and modern UI structure — including the navigation bar, profile section, news feed, and sidebar.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                        <ul class="project-features">
+                            <li>✓ Login Page Design</li>
+                            <li>✓ Modern Facebook-Like Styling</li>
+                            <li>✓ Home Feed Layout</li>
+                            <li>✓ Profile Page Interface</li>
+                            <li>✓ Responsive Design</li>
+                        </ul>
+                        <div class="project-buttons">
+                            <button class="btn-view">View Project</button>
+                            <button class="btn-code">
+                                <img src="img/git.png" alt="GitHub" class="btn-icon">
+                                Code
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-image">
+                        <img src="img/facebook.png" alt="Facebook Clone">
+                    </div>
+                </div>
+
+                <div class="project-item project-right">
+                    <div class="project-image">
+                        <img src="img/google.png" alt="Google Front Page Clone">
+                    </div>
+                    <div class="project-content">
+                        <h3>Google Front Page Clone</h3>
+                        <p>My Google Front Page Clone is a simple front-end project made with HTML and CSS, replicating Google's clean and minimal homepage to showcase my skills in layout design and responsive styling. It includes the Google logo, centered search bar, and navigation links similar to the real interface.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                        <ul class="project-features">
+                            <li>✓ Google Logo & Search Bar</li>
+                            <li>✓ Navigation Links (Gmail, Images, etc.)</li>
+                            <li>✓ Centered Layout Design</li>
+                            <li>✓ Responsive & Minimal Styling</li>
+                        </ul>
+                        <div class="project-buttons">
+                            <button class="btn-view">View Project</button>
+                            <button class="btn-code">
+                                <img src="img/git.png" alt="GitHub" class="btn-icon">
+                                Code
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hidden Projects (Initially Hidden) -->
+                <div class="project-item project-left hidden-project">
+                    <div class="project-content">
+                        <h3>Payroll Management System Run in Python</h3>
+                        <p>A simple and Optimized Payroll Management Sytem built with Python only</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <ul class="project-features">
+                            <li>✓ Calculate Payroll Consistently</li>
+                            <li>✓ Well Optimized</li>
+                            <li>✓ With Authentication</li>
+                            <li>✓ Terminal Run Only</li>
+                        </ul>
+                        <div class="project-buttons">
+                            <button class="btn-view">View Project</button>
+                            <button class="btn-code">
+                                <img src="img/git.png" alt="GitHub" class="btn-icon">
+                                Code
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-image">
+                        <img src="img/payroll.png" alt="Payroll">
+                    </div>
+                </div>
+
+                <div class="project-item project-right hidden-project">
+                    <div class="project-image">
+                        <img src="img/human.png" alt="Human Resource Management System">
+                    </div>
+                    <div class="project-content">
+                        <h3>Human Resource Management System</h3>
+                        <p>An interactive Human Resource Management Systen application with add, edit, delete, and mark-as-complete features. Built with vanilla JavaScript and local storage to persist data across sessions.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <ul class="project-features">
+                            <li>✓ Add/Edit/Delete Tasks</li>
+                            <li>✓ Mark Tasks, Payrolls, Transaction Complete</li>
+                            <li>✓ Local Storage Integration</li>
+                            <li>✓ Clean UI Design</li>
+                        </ul>
+                        <div class="project-buttons">
+                            <button class="btn-view">View Project</button>
+                            <button class="btn-code">
+                                <img src="img/git.png" alt="GitHub" class="btn-icon">
+                                Code
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="explore-btn" id="exploreBtn">
+                <span>EXPLORE MORE</span>
+                <span class="arrow">→</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get in Touch</h2>
+                <div class="accent-line"></div>
+                <p class="section-subtitle">Let's connect and build something amazing together</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <a href="https://www.facebook.com/ejpadernal.jay" target="_blank" rel="noopener noreferrer" class="contact-item">
+                        <img src="img/fishbook.png" alt="Facebook" class="contact-icon">
+                        <div>
+                            <h4>Facebook</h4>
+                            <p>Agosti Luigi</p>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/paulol_jay/" target="_blank" rel="noopener noreferrer" class="contact-item">
+                        <img src="img/ig.png" alt="Instagram" class="contact-icon">
+                        <div>
+                            <h4>Instagram</h4>
+                            <p>@paulol_jay</p>
+                        </div>
+                    </a>
+                    <a href="https://www.tiktok.com/@jaypinabaya" target="_blank" rel="noopener noreferrer" class="contact-item">
+                        <img src="img/tiktok.png" alt="TikTok" class="contact-icon">
+                        <div>
+                            <h4>Tiktok</h4>
+                            <p>@jaypinabaya</p>
+                        </div>
+                    </a>
+                    <a href="https://t.me/Chooey_jay" target="_blank" rel="noopener noreferrer" class="contact-item">
+                        <img src="img/tg.png" alt="Telegram" class="contact-icon">
+                        <div>
+                            <h4>Telegram</h4>
+                            <p>@Chooey_jay</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <h3>Send me a message</h3>
+                    <form id="contactForm" class="contact-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <input type="text" placeholder="Subject" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="submit-btn">
+                            <img src="img/send.png" alt="Send" class="btn-icon">
+                            Send message
+                        </button>
+                    </form>
+                    <div id="formMessage" class="form-message"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 EJ Tubellara Padernal. All rights reserved.</p>
+    </footer>
+
+    
+    <div id="cardModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <img id="modalIcon" src="" alt="" class="modal-icon">
+                <h3 id="modalTitle"></h3>
+            </div>
+            <p id="modalDescription" class="modal-description"></p>
+            <div id="modalGallery" class="modal-gallery"></div>
+            <button class="modal-close" onclick="closeModal()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M19 12H5M12 19l-7-7 7-7"/>
+                </svg>
+                Back
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
